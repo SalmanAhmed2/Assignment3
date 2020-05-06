@@ -1,0 +1,324 @@
+body{margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+header{
+    background-color: royalblue;
+    height: 50px;
+}
+
+header p{
+display: inline-block;
+color: white;
+position: relative;
+cursor: text;
+}
+
+.icons{
+    width: 400px;
+    display: inline-block;
+}
+
+.icons ul li{
+    position: relative;
+    left: 100px;
+    margin: 0px 10px;
+    display: inline-block;
+    color: antiquewhite;
+}
+.icons ul li a .fa{
+    color: white;
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    left: 80px;
+}
+.btn button{
+    cursor: pointer;
+    padding: 5px;
+    color: green;
+}
+
+nav img{
+    width: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.nav-bar{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+
+.nav-bar ul li{
+
+    cursor: pointer;
+    padding: 10px;
+    display: inline-block;
+}
+.nav-bar ul li:hover{
+    color: white;
+    background-color: royalblue;
+    border-radius: 15px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+.news{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    width: 80%;
+    height: 30px;
+    background-color:#316DC3;
+    overflow: hidden;
+}
+.news p a{
+    text-decoration: none;
+    color:blue ;
+}
+p span{
+color:#00FF00;
+}
+.intro{
+    color: grey;
+    position: relative;
+    left: 100px;
+    margin-top: 100px;
+    text-align: justify;
+    width: 80%;
+}
+
+.headd{
+    text-align: center;
+}
+.headd h1{
+    font: 600;
+    font-family:'Merriweather', serif;
+    color: #316DC3;
+}
+
+.headd span{
+    color:#00FF00
+}
+.serve{
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(0, 53, 247);
+}
+.services{
+    text-justify: cover;
+    letter-spacing: 1px;
+    line-height: 100px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    text-align: center;
+    width: 24%;
+    display: inline-block;
+}
+.services span{
+    color:#00FF00
+}
+.line{
+    position: relative;
+    left: 470px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+.line1{
+    position: relative;
+    left: 570px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+    margin-bottom: 50px;
+
+}
+.line2{
+    position: relative;
+    left: 600px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+.line3{
+    position: relative;
+    left: 700px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+.service-2{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.serves{
+    letter-spacing: 1px;
+    color: #316DC3;
+    font-weight: 800;
+    font-family: 'Merriweather', serif;
+    margin: 20px 10px;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+.mission-projects{
+    font-family:'Merriweather', serif;
+    position: relative;
+    bottom: 100px;
+    color: #316DC3;
+    display: inline-block;
+    justify-content: space-between;
+    margin:100px;
+    height: 300px;
+    width: 800px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.missions{
+    background-color: #f7f8fa;
+    margin: 10px;
+    width: 300px;
+    height: 70px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    justify-content: space-around;
+    display: inline-block;
+}
+.line-5{
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+
+.events{
+
+    position: relative;
+    top: 80px;
+    right: 180px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+.events h2{
+    font-family:'Merriweather', serif;
+    color: #316DC3;
+}
+.line-6{
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+.line-7{
+    position: relative;
+    left: 600px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+}
+.line-8{
+    position: relative;
+    left: 670px;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+    margin-bottom: 50px;
+}
+
+.gallery{
+    margin: 100px 0px;
+    width: 100%;
+    text-align: center;
+}
+.images img{
+    height: 170px;
+    width: 230px;
+}
+.foot{
+    display: inline-block;
+    padding: 50px;
+    width: 100%;
+    height: 300px;
+    background-color:rgb(75, 75, 75);
+    color:rgb(204, 202, 202);
+}
+.address p{
+    font-size: large;
+}
+.fa{
+    color:#427900;
+}
+.foot ul li{
+    list-style: none;
+}
+.links,.address{
+    display: inline-block;
+}
+.links{
+    border-bottom: blanchedalmond;
+    position: relative;
+    bottom: 180px;
+    left: 70px;
+    width: 400px;
+}
+.links h4{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 0;
+    font-family:'Merriweather', serif;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+.line-9{
+    position: relative;
+    border: darkgreen 1px solid;
+    height: 0px;
+    width:50px;
+    top: 16px;
+}
+.connect{
+    display: inline-block;
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+    font-family:'Merriweather', serif;
+}
+.connect ul li{
+    display: inline-block;
+}
+.connect ul li a .fa{
+    border-radius:50% ;
+    padding: 7px;
+    background-color: #316DC3;
+    color: #fff;
+}
+.copyright{
+    height: 40px;
+    background-color: #316DC3;
+    width: 100%;
+    color: #fff;
+}
+
+p{
+    position: relative;
+    top: 10px;
+    margin-left: 100px;
+    font-size: 13px;
+}
